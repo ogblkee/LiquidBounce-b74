@@ -4,7 +4,7 @@ on:
   push:
     branches: [ nextgen ]
   pull_request:
-  run_workflow:
+  workflow_run: 
     branches: [ nextgen ]
   release:
     types: [ published ]
